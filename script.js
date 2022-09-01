@@ -25,7 +25,7 @@ lastName.addEventListener("keyup", checkIfButtonIsDisabled);
 email.addEventListener("keyup", checkIfButtonIsDisabled);
 
 // function to run when the form is submitted
-function validateForm(event) {
+function submitForm(event) {
     
     event.preventDefault()
     // display a message once the form has been submitted
@@ -34,7 +34,7 @@ function validateForm(event) {
     contactForm.reset();
 }
 
-contactForm.addEventListener("submit", validateForm)
+contactForm.addEventListener("submit", submitForm)
 
 // function to check if the length of the input value is valid
 function checkLen (value, len) {
