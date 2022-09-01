@@ -38,7 +38,7 @@ contactForm.addEventListener("submit", submitForm)
 
 // function to check if the length of the input value is valid
 function checkLen (value, len) {
-    if (value.length >= len) {
+    if (value.trim().length >= len) {
         return true;
     }
     else {
