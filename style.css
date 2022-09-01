@@ -20,16 +20,15 @@ body {
 
 .message {
     text-align: center;
-    display: none;
 }
 
-.button {
+button {
     background-color: brown;
     color: aliceblue;
     min-width: 160px;
     min-height: 40px;
 }
 
-.button-disabled {
+button:disabled {
     background-color: dimgrey;
 }
