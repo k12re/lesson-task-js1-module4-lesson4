@@ -1,0 +1,35 @@
+body {
+    background: #e8e8e8;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contactForm {
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.7em;
+    text-align: center;
+    height: 290px;
+    background-position: top center;
+}
+
+.message {
+    text-align: center;
+    display: none;
+}
+
+.button {
+    background-color: brown;
+    color: aliceblue;
+    min-width: 160px;
+    min-height: 40px;
+}
+
+.button-disabled {
+    background-color: dimgrey;
+}
